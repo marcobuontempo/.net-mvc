@@ -1,0 +1,6 @@
+﻿{
+  "EnableDeveloperExceptions": true,
+  "ConnectionStrings": {
+    "DBConnection": "Server=localhost,1433;Database=MiIT;User ID=sa;Password=Password1!;Authentication=SqlPassword;Encrypt=False;Trust Server Certificate=True"
+  }
+}

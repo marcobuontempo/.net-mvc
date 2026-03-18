@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
+      "Id": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/js/index.js",
+      "PackagePath": "staticwebassets/js/index.js"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.MiIT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.MiIT.props",
+      "PackagePath": "build\\MiIT.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.MiIT.props",
+      "PackagePath": "buildMultiTargeting\\MiIT.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.MiIT.props",
+      "PackagePath": "buildTransitive\\MiIT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

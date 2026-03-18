@@ -1,0 +1,20 @@
+﻿@model MiIT.Models.Applicant
+
+<div class="container">
+    <h2>Edit Existing Applicant</h2>
+    @using (Html.BeginForm())
+    {
+        <table class="table table-striped">
+
+            <tr><td>@Html.LabelFor(m => m.FullName)</td><td>@Html.EditorFor(m => m.FullName)@Html.ValidationMessageFor(m => m.FullName)</td></tr>
+            <tr><td>@Html.LabelFor(m => m.DateOfBirth)</td><td>@Html.EditorFor(m => m.DateOfBirth)@Html.ValidationMessageFor(m => m.DateOfBirth)</td></tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Qualification)</td>
+                <td>@Html.DropDownListFor(m => m.Qualification, Model.QualificationSelectList, "Select a Qualification", new { @id = "qualification-field" })@Html.ValidationMessageFor(m => m.Qualification)</td>
+            </tr>
+            <tr><td>@Html.LabelFor(m => m.Gpa)</td><td>@Html.EditorFor(m => m.Gpa)@Html.ValidationMessageFor(m => m.Gpa)</td></tr>
+            <tr><td>@Html.LabelFor(m => m.University)</td><td>@Html.EditorFor(m => m.University)@Html.ValidationMessageFor(m => m.University)</td></tr>
+            <tr><td colspan="2"><button type="submit">Update Applicant</button></td></tr>
+        </table>
+    }
+</div>

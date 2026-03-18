@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "xLJivnI3oZsiX0SKL79+GQk/BF6YCmnHtSgqq65XFFA=",
+  "Source": "MiIT",
+  "BasePath": "_content/MiIT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MiIT/wwwroot",
+      "Source": "MiIT",
+      "ContentRoot": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/",
+      "BasePath": "_content/MiIT",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/css/index.css",
+      "SourceId": "MiIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/",
+      "BasePath": "_content/MiIT",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
+    },
+    {
+      "Identity": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/js/index.js",
+      "SourceId": "MiIT",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/marcobuontempo/Documents/holmesglen/2026/ICTPRG556-Implement_and_use_a_model_view_controller_framework/assignments/MiIT/MiIT/wwwroot/",
+      "BasePath": "_content/MiIT",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/index.js"
+    }
+  ]
+}
