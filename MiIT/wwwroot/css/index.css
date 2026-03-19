@@ -48,6 +48,15 @@ table, th, td {
     padding: 1rem 0.5rem;
 }
 
+form, form table {
+    width: 100%;
+}
+
+input, select {
+    padding: 0.5rem;
+    width: 100%;
+}
+
 a, button {
     all: unset;
     cursor: pointer;
@@ -67,12 +76,19 @@ a:active, button:active {
     transform: scale(1.01);
 }
 
-.validation-summary-errors {
+.button-container {
+    text-align: center;
+}
+
+.validation-summary-errors, .field-validation-error {
     color: red;
+    font-size: 0.8em;
+}
+
+.validation-summary-errors {
     padding: 1rem;
 }
 
 .field-validation-error {
-    color: red;
     padding: 0 0.5rem;
 }

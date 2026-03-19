@@ -20,12 +20,12 @@
                 <tr>
                     <td>@applicant.Id</td>
                     <td>@applicant.FullName</td>
-                    <td>@applicant.DateOfBirth.ToShortDateString()</td>
+                    <td>@applicant.DateOfBirth?.ToShortDateString()</td>
                     <td>@applicant.Qualification</td>
                     <td>@applicant.Gpa</td>
                     <td>@applicant.University</td>
-                    <td>@Html.ActionLink("Edit", "Edit", "Applicant", new { @id = applicant.Id })</td>
-                    <td>@Html.ActionLink("Delete", "Delete", "Applicant", new { @id = applicant.Id }, new { onclick = $"return confirm('Are you sure you want to delete Applicant {applicant.Id}?');" })</td>
+                    <td class="button-container">@Html.ActionLink("Edit", "Edit", "Applicant", new { @id = applicant.Id })</td>
+                    <td class="button-container">@Html.ActionLink("Delete", "Delete", "Applicant", new { @id = applicant.Id }, new { onclick = $"return confirm('Are you sure you want to delete Applicant {applicant.Id}?');" })</td>
                 </tr>
             }
         </tbody>
