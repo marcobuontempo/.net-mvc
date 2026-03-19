@@ -45,7 +45,8 @@ namespace MiIT.Models
         {
             "Master of Data Science",
             "Master of Artificial Intelligence",
-            "Master of Information Technology"
+            "Master of Information Technology",
+            "Master of Science (Statistics)"
         };
 
         [NotMapped]
